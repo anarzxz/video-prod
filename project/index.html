@@ -4,16 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Главная</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper main-page-wrapper">
+    <div class="conteiner">
       <header class="header">
         <a href="#" class="logo">
-          <img src="" alt="Логотип" class="logo__img">
+          <img src="./images/logo.png" alt="Логотип" class="logo__img">
         </a>
         <nav class="menu">
           <ul class="menu__list">
-            <li class="menu__item">
+            <li class="menu__item menu__item--active">
               <a href="#" class="menu__link">Главная</a>
             </li>
             <li class="menu__item">
@@ -42,7 +45,7 @@
         <ul class="services__list">
           <li class="services__item">
             <div class="services__icon">
-              <img src="" alt="Иконка сервиса" class="services__icon-img">
+              <img src="./images/icons/offers/tv.png" alt="Иконка сервиса" class="services__icon-img">
             </div>
             <div class="services__info">
               <div class="services__title">
@@ -60,12 +63,12 @@
                 Креатив и производство рекламы, документального и 
                 корпоративного контента
               </div>
-              <button class="services__button button">Подробнее</button>
+              <button class="services__button services__button--color--gionger">Подробнее</button>
             </div>
           </li>
           <li class="services__item">
             <div class="services__icon">
-              <img src="" alt="Иконка сервиса" class="services__icon-img">
+              <img src="./images/icons/offers/clapper.png" alt="Иконка сервиса" class="services__icon-img">
             </div>
             <div class="services__info">
               <div class="services__title">
@@ -88,7 +91,7 @@
           </li>
           <li class="services__item">
             <div class="services__icon">
-              <img src="" alt="Иконка сервиса" class="services__icon-img">
+              <img src="./images/icons/offers/film.png" alt="Иконка сервиса" class="services__icon-img">
             </div>
             <div class="services__info">
               <div class="services__title">
@@ -106,7 +109,7 @@
                 Получите живое видео своего самого счастливого дня,
                 которое Вы будите пересматривать снова и снова
               </div>
-              <button class="services__button button">Подробнее</button>
+              <button class="services__button services__button--color--gionger">Подробнее</button>
             </div>
           </li>
         </ul>
@@ -117,7 +120,7 @@
         </div>
         <ul class="news__list">
           <li class="news__item">
-            <img src="" alt="background" class="news__img">
+            <img src="./images/content/news/camera.jpg" alt="background" class="news__img">
             <div class="news__info">
               <div class="news__date">
                 <div class="news__date-month">
@@ -136,7 +139,7 @@
             </div>
           </li>
           <li class="news__item">
-            <img src="" alt="background" class="news__img">
+            <img src="./images/content/news/wedding.jpg" alt="background" class="news__img">
             <div class="news__info">
               <div class="news__date">
                 <div class="news__date-month">
@@ -150,7 +153,7 @@
                   Акция для молодоженов
               </div>
               <p class="news__text">
-                  Успей забронировать даты. Пока еще есть места на август
+                  Успей забронировать даты на видеосъемку. Пока еще есть места на август
               </p>  
             </div>
           </li>
@@ -161,7 +164,7 @@
             <span class="paginator__display-all">7</span>
           </div>
           <ul class="paginator__list">
-            <li class="paginator__item">
+            <li class="paginator__item paginator__item--active">
               <a href="#" class="paginator__link">1</a>
             </li>
             <li class="paginator__item">
@@ -186,25 +189,26 @@
         </div>
       </div>
       <div class="about">
-        <img src="" alt="О нас картинка" class="about__img">
         <div class="about__info">
           <div class="about__title">
             О нас
           </div>
           <div class="about__text">
-            Мы производим видеоконтент, который решит любые ваши задачи: 
+            <p>  Мы производим видеоконтент, который решит любые ваши задачи: 
             увеличит конверсию, расширит клиентскую базу, повысит узнаваемость 
-            бренда, расскажет о новой услуге или акции
+            бренда, расскажет о новой услуге или акции 
+          </p>
           </div>
           <button class="about__button button">Подробнее</button>
         </div>
       </div>
   </div>
+</div>
   <footer class="footer">
-    <a href="#" class="logo">
-      <img src="" alt="Логотип" class="logo__img">
+    <a href="#" class="logo__footer">
+      <img src="./images/logo.png" alt="Логотип" class="logo__img">
     </a>
-    <nav class="menu">
+    <nav class="menu--footer">
       <ul class="menu_list">
         <li class="menu__item">
           <a href="#" class="menu__link">Главная</a>
@@ -221,28 +225,28 @@
       <ul class="socials__list">
         <li class="socials__item">
           <a href="#" class="socials__link">
-            <img src="" alt="Социальная иконка" class="socials__icon">
+            <img src="./images/icons/socials/t2.png" alt="Социальная иконка" class="socials__icon">
           </a>
         </li>
         <li class="socials__item">
           <a href="#" class="socials__link">
-            <img src="" alt="Социальная иконка" class="socials__icon">
+            <img src="./images/icons/socials/vk2.png" alt="Социальная иконка" class="socials__icon">
           </a>
         </li>
         <li class="socials__item">
           <a href="#" class="socials__link">
-            <img src="" alt="Социальная иконка" class="socials__icon">
+            <img src="./images/icons/socials/f2.png" alt="Социальная иконка" class="socials__icon">
           </a>
         </li>
         <li class="socials__item">
           <a href="#" class="socials__link">
-            <img src="" alt="Социальная иконка" class="socials__icon">
+            <img src="./images/icons/socials/in2.png" alt="Социальная иконка" class="socials__icon">
           </a>
         </li>
       </ul>
     </div>
-    <div class="contacts">
-      <div class="contacts__text">Бесплатный звонок по России</div>
+    <div class="contacts--footer">
+      <div class="contacts__text--text">Бесплатный звонок по России</div>
       <a href="#" class="contacts__link">+789283492232</a>
     </div>
   </footer>
